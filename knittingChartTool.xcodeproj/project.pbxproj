@@ -14,6 +14,8 @@
 		14D67A151B01582400E43AB2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14D67A131B01582400E43AB2 /* LaunchScreen.xib */; };
 		14D67A211B01582400E43AB2 /* knittingChartToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D67A201B01582400E43AB2 /* knittingChartToolTests.m */; };
 		14D67A2C1B01586000E43AB2 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D67A2B1B01586000E43AB2 /* TableViewController.m */; };
+		14D67A2F1B015CA200E43AB2 /* ProjectDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D67A2E1B015CA200E43AB2 /* ProjectDetailViewController.m */; };
+		14D67A321B015CB600E43AB2 /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D67A311B015CB600E43AB2 /* ChartViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		14D67A201B01582400E43AB2 /* knittingChartToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = knittingChartToolTests.m; sourceTree = "<group>"; };
 		14D67A2A1B01586000E43AB2 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		14D67A2B1B01586000E43AB2 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		14D67A2D1B015CA200E43AB2 /* ProjectDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectDetailViewController.h; sourceTree = "<group>"; };
+		14D67A2E1B015CA200E43AB2 /* ProjectDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectDetailViewController.m; sourceTree = "<group>"; };
+		14D67A301B015CB600E43AB2 /* ChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartViewController.h; sourceTree = "<group>"; };
+		14D67A311B015CB600E43AB2 /* ChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,11 +90,15 @@
 				14D67A081B01582400E43AB2 /* AppDelegate.h */,
 				14D67A091B01582400E43AB2 /* AppDelegate.m */,
 				14D67A0E1B01582400E43AB2 /* Main.storyboard */,
+				14D67A2A1B01586000E43AB2 /* TableViewController.h */,
+				14D67A2B1B01586000E43AB2 /* TableViewController.m */,
+				14D67A2D1B015CA200E43AB2 /* ProjectDetailViewController.h */,
+				14D67A2E1B015CA200E43AB2 /* ProjectDetailViewController.m */,
+				14D67A301B015CB600E43AB2 /* ChartViewController.h */,
+				14D67A311B015CB600E43AB2 /* ChartViewController.m */,
 				14D67A111B01582400E43AB2 /* Images.xcassets */,
 				14D67A131B01582400E43AB2 /* LaunchScreen.xib */,
 				14D67A041B01582400E43AB2 /* Supporting Files */,
-				14D67A2A1B01586000E43AB2 /* TableViewController.h */,
-				14D67A2B1B01586000E43AB2 /* TableViewController.m */,
 			);
 			path = knittingChartTool;
 			sourceTree = "<group>";
@@ -219,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14D67A321B015CB600E43AB2 /* ChartViewController.m in Sources */,
 				14D67A0A1B01582400E43AB2 /* AppDelegate.m in Sources */,
+				14D67A2F1B015CA200E43AB2 /* ProjectDetailViewController.m in Sources */,
 				14D67A2C1B01586000E43AB2 /* TableViewController.m in Sources */,
 				14D67A071B01582400E43AB2 /* main.m in Sources */,
 			);

@@ -1,19 +1,22 @@
 //
-//  TableViewController.m
+//  ProjectDetailViewController.m
 //  knittingChartTool
 //
 //  Created by Jen Kelley on 5/11/15.
 //  Copyright (c) 2015 Jen Kelley. All rights reserved.
 //
 
-#import "TableViewController.h"
+#import "ProjectDetailViewController.h"
 
-@interface TableViewController ()
-@property (strong, nonatomic) IBOutlet UITableView *tableView;
+@interface ProjectDetailViewController ()
+@property (strong, nonatomic) IBOutlet UITextField *projectName;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *flatOrRoundSegmented;
+@property (strong, nonatomic) IBOutlet UITextField *numberOfRows;
+@property (strong, nonatomic) IBOutlet UITextField *numberOfStitches;
 
 @end
 
-@implementation TableViewController
+@implementation ProjectDetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

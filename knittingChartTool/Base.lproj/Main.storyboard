@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Table View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="TableViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -68,14 +68,17 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="l6N-KE-aho" id="lxF-4e-614"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Project Detail View Controller-->
         <scene sceneID="ibU-SR-NMK">
             <objects>
-                <viewController id="40O-F3-4Li" sceneMemberID="viewController">
+                <viewController id="40O-F3-4Li" customClass="ProjectDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qvZ-mp-8zy"/>
                         <viewControllerLayoutGuide type="bottom" id="qmM-Ut-WnG"/>
@@ -175,15 +178,21 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="flatOrRoundSegmented" destination="Bmm-jS-Drs" id="eqg-uO-tzM"/>
+                        <outlet property="numberOfRows" destination="eCG-JP-d5c" id="gjf-7n-G0t"/>
+                        <outlet property="numberOfStitches" destination="IkI-kX-H1l" id="hNK-pc-NIE"/>
+                        <outlet property="projectName" destination="2Vq-Vj-7mW" id="1fk-88-RZd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hwk-nv-8mX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="904.5" y="307"/>
         </scene>
-        <!--View Controller-->
+        <!--Chart View Controller-->
         <scene sceneID="ZNe-dj-rRa">
             <objects>
-                <viewController id="k08-Wc-Ai2" sceneMemberID="viewController">
+                <viewController id="k08-Wc-Ai2" customClass="ChartViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XFM-P9-wFC"/>
                         <viewControllerLayoutGuide type="bottom" id="Vvp-Wa-WyK"/>
@@ -210,6 +219,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="chartImage" destination="ZvA-7G-SOq" id="3l6-5F-b0M"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NOS-07-FwL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
